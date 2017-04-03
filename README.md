@@ -5,8 +5,10 @@ Class Deque
 -Data structural architecture characterised by a linear graph of linked nodes that gives
 the user the option to either access or alter the ends of the linear node.
 
-Rational (use of ArrayList<T> class)
+Rationale (use of ArrayList<T> class):
+
 -Arraylist<T> is easier to iterate through
+
 -Good practice of ArrayList<T> for the AP Examination
 
 Methods
