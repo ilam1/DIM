@@ -1,3 +1,8 @@
+// Dawei Huang
+// APCS2 pd5
+// HW29 -- Stress is the Best
+// 2017-04-05
+
 public class DequeTester{
 	public static void main(String[] args) {
 	// initialize Deque dimsum containing String objects
