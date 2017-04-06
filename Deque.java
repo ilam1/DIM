@@ -1,11 +1,11 @@
 public interface Deque<T> {
     /**Inserts parameter e of type T to the end of the deque
-     * Precondition: Parameter e is added
+     * Precondition: Deque is initialized
      * Postcondition: e is added to the end of deque */
     public void addLast(T e);
 
     /**Inserts parameter e of type T to the beginning of the deque
-     * Precondition: Parameter e is added
+     * Precondition: Deque is initialized
      * Postcondition: e is added to the beginning of deque */
     public void addFirst(T e);
 
