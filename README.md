@@ -2,15 +2,14 @@
 Team Dim (Mansour Elsharawy, Dawei Huang, Irene Lam)
 
 ## Class Deque
-- Data structural architecture characterised by a linear graph of linked nodes that gives
-the user the option to either access or alter the ends of the linear node.
+Interface short for "double ended queue" in which methods allow users to access elements on either end of the deque.
 
 **Rationale (use of ArrayList<T> class)**
 
      ArrayList<T> is much simpler in structure than a set of doubly-linked nodes,
-     and while wiring the code for the Deque, an ArrayList, while needing linear
-     runtime for some methods that a doubly-linked node can handle in constant time,
-     has a lot less room for mistakes than a doubly-linked list by not having to deal
+     and while wiring the code for the Deque, an ArrayList, and needing linear
+     runtime for some methods that a doubly-linked node can handle in constant time may not be as efficient,
+     using an ArrayList has a lot less room for mistakes than a doubly-linked list by not having to deal
      with all of the pointers and having to manage a _front and _end pointer.
 
 **Methods**
