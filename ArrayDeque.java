@@ -8,8 +8,13 @@
  *****************************************************/
 import java.util.*;
 public class ArrayDeque<T> implements Deque<T> {
-    private ArrayList<T> _deque = new ArrayList<T>();
+    private ArrayList<T> _deque;
 
+    //Default Constructor	
+    public ArrayDeque() {	
+	_deque = new ArrayList<T>();
+    }
+	
     /**Determines the size of deque
      * Precondition: Deque is initialized
      * Postcondition: Returns the length of deque*/	
