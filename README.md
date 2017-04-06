@@ -7,16 +7,16 @@ Interface short for "double ended queue" in which methods allow users to access 
 **Rationale (use of ArrayList<T> class)**
 
      ArrayList<T> is much simpler in structure than a set of doubly-linked nodes,
-     and while wiring the code for the Deque, an ArrayList, and needing linear
-     runtime for some methods that a doubly-linked node can handle in constant time may not be as efficient,
+     and while wiring the code for the Deque inteface with an ArrayList may need linear
+     runtime for methods that a doubly-linked node can otherwise handle in constant time,
      using an ArrayList has a lot less room for mistakes than a doubly-linked list by not having to deal
      with all of the pointers and having to manage a _front and _end pointer.
 
-**Methods**
-1. void addFirst(T e) - add an element to the front of the deque
-2. void addLast(T e) - add an element to the end of the deque
-3. T removeFirst() - remove the element at the front of the deque
-4. T removeLast() - remove the element at the end of the deque
+**Method Explanations**
+1. void addFirst(T e) - adds an element to the front of the deque
+2. void addLast(T e) - adds an element to the end of the deque
+3. T removeFirst() - removes the element at the front of the deque
+4. T removeLast() - removes the element at the end of the deque
 5. T peekFirst() - returns the element at the front of the deque
 6. T peekLast() - returns the element at the end of the deque
 7. int size() - returns the size of the deque
